@@ -1,11 +1,12 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import Decklist from './Components/ Decklist'
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>FlashyCards</Text>
+        <Decklist/>
       </View>
     );
   }
